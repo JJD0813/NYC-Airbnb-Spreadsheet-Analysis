@@ -1,75 +1,73 @@
-# 📊 Spreadsheet Data Analysis: NYC Airbnb Listings
+# 📊 NYC Airbnb Spreadsheet Analysis
 
-This project uses Google Sheets to analyze NYC Airbnb data and identify the most attractive neighborhoods and property types for vacation rentals. The analysis was completed as part of a Business Intelligence bootcamp project, using spreadsheet functions to simulate data-driven recommendations for a real-world client.
-
-> ✅ Although completed in **Google Sheets**, the analysis and insights are transferable to **Microsoft Excel** or other spreadsheet platforms.
+This project uses spreadsheet tools to analyze Airbnb listings in New York City and identify the most attractive neighborhoods and property types for short-term rental investment. Completed as part of the TripleTen Business Intelligence Bootcamp, the analysis demonstrates how spreadsheet software like **Google Sheets** (or **Excel**) can be used to generate actionable business insights.
 
 ---
 
 ## 🗂️ Project Overview
 
-You’ve been tasked with helping a client identify where to focus their Airbnb investments in Manhattan. Your goal was to evaluate:
-- Which neighborhoods and property types are most attractive?
-- How many bedrooms are most in demand?
-- How much money do top listings generate?
+You’ve been tasked with helping a client determine where to focus their Airbnb investments in Manhattan. Your objective was to explore trends in pricing, demand, and location performance to inform their real estate decisions.
+
+The project answers key business questions using pivot tables, formulas, and basic visualization techniques.
 
 ---
 
-## 📁 Dataset Used
-- **NYC Airbnb Data** (sample dataset)
-- Contains columns such as `neighborhood`, `room_type`, `price`, `minimum_nights`, `number_of_reviews`, and more.
+## 📟 The Dataset
+
+- Public Airbnb dataset for New York City, including:
+  - `neighborhood`
+  - `room_type`
+  - `price`
+  - `minimum_nights`
+  - `number_of_reviews`
+  - `scrape_id`, and other metadata
+
+> **Note:** In the Excel version, the `scrape_id` column may appear as `###`. This is a display issue caused by narrow column width and **does not affect the actual data**. You can widen the column or view the file in Google Sheets to display values correctly.
 
 ---
 
 ## 📌 Key Questions Answered
 
-1. **Top neighborhoods for rentals**  
-   Used filters and pivot tables to rank the most in-demand Manhattan neighborhoods.
-
-2. **Popular property sizes**  
-   Identified the most common number of bedrooms in popular listings.
-
-3. **Neighborhood-specific preferences**  
-   Analyzed how bedroom demand differs across neighborhoods.
-
-4. **Top earning listings**  
-   Estimated earnings using the 30-day price to find the most profitable listings.
-
-5. **Estimated annual revenue**  
-   Multiplied 30-day revenue by 12 to project yearly income for investment decisions.
+1. **Top-performing neighborhoods** — Identified which areas in Manhattan have the most listings and highest earning potential.
+2. **Common bedroom counts** — Analyzed bedroom quantity trends to see which sizes are most in demand.
+3. **Neighborhood-specific patterns** — Compared property trends across neighborhoods like Harlem, Midtown, and the East Village.
+4. **Estimated monthly and annual revenue** — Projected earnings using 30-day revenue estimates.
+5. **Visualizations** — Created supporting charts to communicate insights.
 
 ---
 
-## 🛠️ Tools & Skills Applied
+## 🛠️ Tools & Techniques
 
-- **Google Sheets / Microsoft Excel**
-- Pivot Tables
-- Filters and sorting
-- Formulas: `SUM`, `AVERAGE`, `IF`, `SORT`, `FILTER`, etc.
-- Data cleaning and formatting
-- Dashboard formatting and chart creation
+- **Google Sheets** (Excel-compatible)
+- Filters, sorting, and conditional formatting
+- **Pivot tables**
+- **Formulas**: `SUM`, `AVERAGE`, `IF`, `FILTER`, `SORT`, etc.
+- Data cleaning and dashboard layout
+
+---
+
+## 📄 Files Included
+
+- `NYC_Airbnb_Data_Final.xlsx`: Full spreadsheet including raw data, pivot tables, and calculated fields
+- `README.md`: This file
+
+> **Note:** If you're using Excel and see `###` in any column (like `scrape_id`), it's just a formatting issue—resize the column to view full values.
 
 ---
 
 ## 🧠 Key Learnings
 
-- Developed spreadsheet skills for business-focused data exploration  
-- Gained practice transforming raw data into client-ready insights  
-- Demonstrated ability to work with pivot tables and financial projections
+- Practiced data exploration and business-focused analysis using spreadsheets  
+- Gained confidence in building pivot tables and using spreadsheet formulas  
+- Learned to communicate insights clearly through tabular and visual presentation  
+- Experienced how spreadsheet tools can support business intelligence reporting
 
 ---
 
-## 🗃️ Files Included
+## ✅ Project Status
 
-- `airbnb_analysis.xlsx` *(or `.gsheet`, depending on upload format)*
-- Optional: Screenshots or exported charts as image files
-- `README.md` (this file)
-
----
-
-## ✅ Status
-
-Completed August 2025
+**Completed:** August 2025  
+**Platform Used:** Google Sheets (Excel-compatible)
 
 ---
 
@@ -81,5 +79,4 @@ Business Intelligence Analyst
 
 ---
 
-Thanks for reviewing my spreadsheet project! Feel free to reach out with feedback or questions.
-
+Thanks for checking out this spreadsheet-based analysis! If you have feedback or want to connect, feel free to reach out.
